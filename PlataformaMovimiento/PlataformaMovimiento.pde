@@ -1,7 +1,7 @@
 Plataforma plataforma;
 void setup() {
   size(800, 800);
-  plataforma = new Plataforma(new PVector(width/2, height/2));//Ubicacion de la plataforma
+  plataforma = new Plataforma(new PVector(width/2, height/2), 2);//Ubicacion de la plataforma y velocidad
 }
 void draw() {
   background(0);//fondo negro
