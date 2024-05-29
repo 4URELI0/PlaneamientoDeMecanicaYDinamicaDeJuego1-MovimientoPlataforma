@@ -6,5 +6,7 @@ void setup() {
 void draw() {
   background(0);//fondo negro
   textSize(50);//Tamanio del texto
-  text("Tiempo en segundos: " + millis()/1000,0,40);//Mostrar por pantalla los segundos transcurrido
+  text("Tiempo en segundos: " + millis()/1000, 0, 40);//Mostrar por pantalla los segundos transcurrido
+  plataforma.dibujar();//Dibujar al cuadro
+  plataforma.movimiento();//Movimiento del cuadro por la funcion sin()
 }
